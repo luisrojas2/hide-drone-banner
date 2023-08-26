@@ -3,11 +3,11 @@
 
   "name": "hide-msg-ban",
   "version": "0.0.1",
-  "description": "Hide banner",
+  "description": "Hide license banner",
 
   "content_scripts": [{
     "js": ["hideLicense.js"],
-    "matches": ["https://drone-publish.rancher.io/license_system-messages-wrapper__2jNgH"],
+    "matches": ["https://drone-publish.rancher.io/*],
     "run_at":  "document_idle"
   }]
 
