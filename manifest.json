@@ -7,7 +7,7 @@
 
   "content_scripts": [{
     "js": ["hideLicense.js"],
-    "matches": ["https://drone-publish.rancher.io/*],
+    "matches": ["https://drone-publish.rancher.io/*"],
     "run_at":  "document_idle"
   }]
 
