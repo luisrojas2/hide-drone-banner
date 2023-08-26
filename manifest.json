@@ -1,10 +1,14 @@
 {
-  "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
-  "version": "1.0",
-  "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
-  }
+  "manifest_version": 2,
+
+  "name": "hide-msg-ban",
+  "version": "0.0.1",
+  "description": "Hide banner",
+
+  "content_scripts": [{
+    "js": ["hideLicense.js"],
+    "matches": ["https://drone-publish.rancher.io/license_system-messages-wrapper__2jNgH"],
+    "run_at":  "document_idle"
+  }]
+
 }
