@@ -6,5 +6,5 @@
 2. Enter to: chrome://extensions/
 3. Enable developer mode option
 4. Click "load unpacked" button
-5. Select "hideDroneBanner" folder
-6. Enjoy!
+5. Select and open "hide-drone-banner" folder
+6. The hide-msg-ban extension should be added. Enjoy!
